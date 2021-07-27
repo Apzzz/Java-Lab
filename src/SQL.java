@@ -10,7 +10,7 @@ public class SQL {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/javasql", "admin",
-					"Abhiram@2009");
+					"password");
 			Statement st = conn.createStatement();
 			System.out.print("Enter the number of students ");
 			n = sc.nextInt();
